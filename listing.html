@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato| listing</title>
+    <!--Logo-->
+    <link rel="icon" href="https://i.ibb.co/KKjBss9/Zomato1-logo.png">
+    <!--Css-->
+    <link rel="stylesheet" href="listing.css">
+    <!--Bootstrap 5.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <!--Font awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+<body>
+
+<!--HEADER SECTION-->
+
+    <nav class="navbar navbar-expand-sm fixed-top" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">Zomato</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" fdprocessedid="3d6efh">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Filters</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link</a></li>
+                      <li><a class="dropdown-item" href="#">Another link</a></li>
+                      <li><a class="dropdown-item" href="#">A third link</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cuisine</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link</a></li>
+                      <li><a class="dropdown-item" href="#">Another link</a></li>
+                      <li><a class="dropdown-item" href="#">A third link</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More Filters</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link</a></li>
+                      <li><a class="dropdown-item" href="#">Another link</a></li>
+                      <li><a class="dropdown-item" href="#">A third link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2 search_input" type="text" placeholder="Search">
+                  <button class="btn btn-outline-info" type="submit">Search</button>
+                </form>
+              </div>
+
+            <div class="row-1">
+
+              <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="username@gmail.com" fdprocessedid="hiv8vq">Log in</button>
+    
+              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Log in to your account</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Email:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Password:</label>
+                          <input type="Password" class="form-control" id="recipient-name">
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Log in</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal2" data-bs-whatever="" fdprocessedid="hiv8vq">Sign up</button>
+    
+              <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Create your account</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Full name:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Email:</label>
+                          <input type="email" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Password:</label>
+                          <input type="password" class="form-control" id="recipient-name">
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Sign up</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </nav>
+
+<!--Order Inspiration Section-->
+
+    <div class="container mt-3">
+      <br>
+      <div class="mt-4 p-5 bg-light text-black rounded">
+        <h3>Inspiration for your first order</h3> 
+        <br>
+        <br>
+        <div class="container-fluid align">
+          <div>
+            <img src="poha.webp" alt="poha" class="rounded-circle size">
+            <h5>Poha</h5>
+          </div>
+          <div>
+            <img src="paratha.jpg" alt="paratha" class="rounded-circle size">
+            <h5>Paratha</h5>
+          </div>
+          <div>
+            <img src="dhokla.webp" alt="dhokla" class="rounded-circle size">
+            <h5>Dhokla</h5>
+          </div>
+          <div>
+            <img src="dosa.jpg" alt="dosa" class="rounded-circle size">
+            <h5>Dosa</h5>
+          </div>
+          <div>
+            <img src="idli.jpg" alt="idli" class="rounded-circle size">
+            <h5>Idli</h5>
+          </div>
+          <div>
+            <img src="appam.jpg" alt="appam" class="rounded-circle size">
+            <h5>Appam</h5>
+          </div>
+          <div>
+            <img src="vada.jpg" alt="vada" class="rounded-circle size">
+            <h5>Vada</h5>
+          </div>
+          <div>
+            <img src="samosa.jpg" alt="samosa" class="rounded-circle size">
+            <h5>Samosa</h5>
+          </div>
+          <div>
+            <img src="misal pav.jpg" alt="misal pav" class="rounded-circle size">
+            <h5>Misal Pav</h5>
+          </div>
+          <div>
+            <img src="tea.webp" alt="tea" class="rounded-circle size">
+            <h5>Tea</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<!--Top brands section-->
+
+    <div class="container mt-1">
+      <br>
+      <div class="mt-0 p-5 bg-light text-black rounded">
+        <h3>Top brands for you</h3> 
+        <br>
+        <br>
+        <div class="container-fluid align">
+          <div>
+            <img src="pizza hut.avif" alt="pizza hut" class="rounded-circle size">
+            <h6>Pizza Hut</h6>
+            <figcaption class="figure-caption">28 min</figcaption>
+          </div>
+          <div>
+            <img src="burger ji.avif" alt="burger ji" class="rounded-circle size">
+            <h6>Burger Ji</h6>
+            <figcaption class="figure-caption">18 min</figcaption>
+          </div>
+          <div>
+            <img src="Dominos.avif" alt="domino's" class="rounded-circle size">
+            <h6>Domino's Pizza</h6>
+            <figcaption class="figure-caption">25 min</figcaption>
+          </div>
+          <div>
+            <img src="7th heaven.avif" alt="7th heaven" class="rounded-circle size">
+            <h6>7th Heaven</h6>
+            <figcaption class="figure-caption">22 min</figcaption>
+          </div>
+          <div>
+            <img src="Bikanerwala.avif" alt="Bikanerwala" class="rounded-circle size">
+            <h6>Bikanervala</h6>
+            <figcaption class="figure-caption">20 min</figcaption>
+          </div>
+          <div>
+            <img src="jankas.avif" alt="Jannaks" class="rounded-circle size">
+            <h6>Jannaks Food Arts Restaurant & Sweets</h6>
+            <figcaption class="figure-caption">18 min</figcaption>
+          </div>
+          <div>
+            <img src="k3 club.avif" alt="k3 club" class="rounded-circle size">
+            <h6>Lachef By K3 Club Residency</h6>
+            <figcaption class="figure-caption">25 min</figcaption>
+          </div>
+          <div>
+            <img src="Nvbharat.avif" alt="navbharat bakery" class="rounded-circle size">
+            <h6>Nav Bharat Restaurant & Ice Creamery</h6>
+            <figcaption class="figure-caption">19 min</figcaption>
+          </div>
+          <div>
+            <img src="grand tulsi.avif" alt="grand tulsi hotel" class="rounded-circle size">
+            <h6>The Grand Tulsi Hotel</h6>
+            <figcaption class="figure-caption">27 min</figcaption>
+          </div>
+          <div>
+            <img src="sawariya sweets.avif" alt="sawariya sweets" class="rounded-circle size">
+            <h6>Sarwariya Sweets</h6>
+            <figcaption class="figure-caption">22 min</figcaption>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Best food section-->    
+    <h3 id="best_food">Best food in Jhansi</h3>
+    <div class="container mt-3">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-4 p-5 bg-light text-black rounded" id="best_food_images">
+        <div class="col">
+          <img src="bikanerwale food.avif" alt="Bikanervala" class="rounded-5 img-fluid">
+          <h6>Bikanerwala <span class="badge bg-success">3.8<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">South Indian, Street food...</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="kushwaha ji food.avif" alt="kushwaha ji food" class="rounded-5 img-fluid">
+          <h6>Kushwaha Ji Foods <span class="badge bg-success">3.5<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">Fast Food</figcaption>
+          <hr>
+        </div>
+        <div class="col"
+        ><img src="Alfa food.avif" alt="Alfa foods"  class="rounded-5 img-fluid">
+        <h6>Alfa Foods <span class="badge bg-success">4.0<span class="fa fa-star checked"></span></span></h6>
+        <figcaption class="figure-caption">North Indian</figcaption>
+        <hr>
+        </div>
+        <div class="col">
+          <img src="Hotel bundelkhand food.avif" alt="Hotel bundelkhand" class="rounded-5 img-fluid">
+          <h6>Hotel Bundelkhand Pride <span class="badge bg-success">4.8<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">North Indian, Chinese...</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="Dilip food.avif" alt="Dilip hotel" class="rounded-5 img-fluid">
+          <h6>Dilip Hotel Veg & Non Veg <span class="badge bg-success">4.5<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">North Indian, Biryani</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="Balaji dosa food.avif" alt="balaji dosa" class="rounded-5 img-fluid">
+          <h6>Balaji Dosa <span class="badge bg-success">4.0<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">South Indian</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="Chai sutta bar food.avif" alt="chai sutta bar" class="rounded-5 img-fluid">
+          <h6>Chai Sutta Bar <span class="badge bg-success">4.5<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">Tea and Snacks</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="Awadh food.avif" alt="Awadh foods" class="rounded-5 img-fluid">
+          <h6>Awadh Foods <span class="badge bg-success">3.8<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">Fast Food</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="Gupta ji food.avif" alt="Gupta ji" class="rounded-5 img-fluid">
+          <h6>Gupta Ji Special <span class="badge bg-success">3.5<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">Street Food</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="Agrwal ji food.avif" alt="agarwal ji" class="rounded-5 img-fluid">
+          <h6>Agarwal Ji Special <span class="badge bg-success">3.9<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">North Indian, Fastfood</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="Chelaram food.avif" alt="chelaram fast food" class="rounded-5 img-fluid">
+          <h6>Chelaram Fastfood <span class="badge bg-success">4.0<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">South Indian, Fast food</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="Punjabi paratha food.avif" alt="punjabi paratha" class="rounded-5 img-fluid">
+          <h6>Punjabi Paratha <span class="badge bg-success">3.5<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">North Indian, Parathas</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="sawariya food.avif" alt="sawariya foods" class="rounded-5 img-fluid">
+          <h6>Sawariya Food & Restaurant <span class="badge bg-success">4.2<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">North Indian, Fast Food</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="shiv food.avif" alt="shiv fast food" class="rounded-5 img-fluid">
+          <h6>Shiv Fast Food & Restaurant <span class="badge bg-success">4.5<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">North Indian, South Indian, Fastfood</figcaption>
+          <hr>
+        </div>
+        <div class="col">
+          <img src="Rolls mania food.avif" alt="Rolls mania" class="rounded-5 img-fluid">
+          <h6>Rolls Mania <span class="badge bg-success">4.7<span class="fa fa-star checked"></span></span></h6>
+          <figcaption class="figure-caption">Variety of Wraps</figcaption>
+          <hr>
+        </div>
+      </div>
+    </div>
+
+<!--FOOTER-->
+
+    <footer class="text-center text-lg-start text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+
+        <div>
+          <a href="" class="me-4 link-secondary">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="bi bi-google"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </section>
+    
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>Zomato
+              </h6>
+              <p>
+                Here you can order delicious cuisine from your favourite restaurants.
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                ABOUT ZOMATO
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Who We Are</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Blog</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Work With Us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Investor Relations</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Report Fund</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Contact Us</a>
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                For Restaurants
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Partner With Us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Apps For You</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Learn More
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Privacy</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Security</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Terms</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Sitemap</a>
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="bi bi-house-door-fill"></i>Ground Floor 12A 94 Meghdoot Nehru Place New Delhi - India </p>
+              <p><i class="bi bi-envelope-fill"></i>companysecretary@zomato.com</p>
+              <p><i class="bi bi-telephone-fill"></i>+91-011-40592373</p>
+              <p><i class="bi bi-printer-fill"></i>N.A.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2023-24 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Zomato.com</a>
+      </div>
+    </footer>
+  </body>
+</html>  

@@ -1,0 +1,59 @@
+
+/*nav{
+    background-color: red;
+}*/
+
+.logo{
+    font-family: 'Itim', cursive;
+}
+
+.search_input{
+    
+}
+
+.size{
+    width: 150px;
+    height: 150px;
+}
+
+.align div{
+    margin-left: 40px;
+    text-align: center;
+}
+
+.align {
+    overflow-x: scroll;
+    display: flex;
+}
+
+#best_food{
+    margin-left: 11%;
+    margin-top: 70px;
+}
+
+#best_food_images img{
+    height: 290px;
+    width: 380px;
+    margin: 12px 0 10px 3px;
+}
+
+#best_food_images span{
+    float: right;
+}
+
+#best_food_images div:hover{
+    box-shadow: 0px 0px 10px 0px lightgray
+}
+
+#best_food_images div{
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: #e3f2fd;
+}
+
+Footer a{
+    text-decoration: none;
+}
