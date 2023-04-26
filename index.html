@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zomato</title>
+    <title>Zomacco</title>
     <link rel="icon" href="https://i.ibb.co/KKjBss9/Zomato1-logo.png">
     <link rel="stylesheet" href="zomato_style.css">
     <!--Bootstrap 5.3-->
@@ -25,7 +25,7 @@
 
     <nav class="navbar navbar-expand-sm fixed-top" style="background-color: #e3f2fd;">
         <div class="container-fluid">
-            <a class="navbar-brand logo" href="#">Zomato</a>
+            <a class="navbar-brand logo" href="#">Zomacco</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" fdprocessedid="3d6efh">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,26 +34,37 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Filters</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Link</a></li>
-                            <li><a class="dropdown-item" href="#">Another link</a></li>
-                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                          <li class="dropdown-item"><input type="radio" name="Filters">Popularity</li>
+                          <li class="dropdown-item"><input type="radio" name="Filters">Rating: High to Low</li>
+                          <li class="dropdown-item"><input type="radio" name="Filters">Delivery Time</li>
+                          <li class="dropdown-item"><input type="radio" name="Filters">Cost: Low to High</li>
+                          <li class="dropdown-item"><input type="radio" name="Filters">Cost: High to Low</li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cuisine</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Link</a></li>
-                            <li><a class="dropdown-item" href="#">Another link</a></li>
-                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                          <li class="dropdown-item"><input type="radio" name="cuisine">Pure Veg</li>
+                          <li class="dropdown-item"><input type="radio" name="cuisine">Non Veg</li>
+                          <li class="dropdown-item"><input type="radio" name="cuisine">South India</li>
+                          <li class="dropdown-item"><input type="radio" name="cuisine">Mughlai</li>
+                          <li class="dropdown-item"><input type="radio" name="cuisine">Chinese</li>
+                          <li class="dropdown-item"><input type="radio" name="cuisine">Italian</li>
+                          <li class="dropdown-item"><input type="radio" name="cuisine">Greek</li>
+                          <li class="dropdown-item"><input type="radio" name="cuisine">Spanish</li>
+                          <li class="dropdown-item"><input type="radio" name="cuisine">Mexican</li>
+                          <li class="dropdown-item"><input type="radio" name="cuisine">Korean</li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More Filters</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Link</a></li>
-                            <li><a class="dropdown-item" href="#">Another link</a></li>
-                            <li><a class="dropdown-item" href="#">A third link</a></li>
-                        </ul>
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Rating</a>
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-item"><input type="radio" name="mFilters">Any</li>
+                        <li class="dropdown-item"><input type="radio" name="mFilters">5.0 - 4.5</li>
+                        <li class="dropdown-item"><input type="radio" name="mFilters">4.5 - 3.5</li>
+                        <li class="dropdown-item"><input type="radio" name="mFilters">3.5 - 2.5</li>
+                        <li class="dropdown-item"><input type="radio" name="mFilters">2.5 - 1.0</li>
+                      </ul>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -128,7 +139,7 @@
 <!--MAIN BODY-->    
 
     <div class="bg-image">
-      <p>zomato</p>
+      <p>Zomacco</p>
     </div> 
 
     <h3 id="best_food">Select Your Mealtype</h3>
@@ -195,23 +206,20 @@
       </div>
 
       <div>
-        <a href="" class="me-4 link-secondary">
+        <a href="https://www.facebook.com/zomato" target="_blank" class="me-4 link-secondary">
           <i class="bi bi-facebook"></i>
         </a>
-        <a href="" class="me-4 link-secondary">
+        <a href="https://twitter.com/zomato" target="_blank" class="me-4 link-secondary">
           <i class="bi bi-twitter"></i>
         </a>
-        <a href="" class="me-4 link-secondary">
-          <i class="bi bi-google"></i>
-        </a>
-        <a href="" class="me-4 link-secondary">
+        <a href="https://www.instagram.com/zomato/" target="_blank" class="me-4 link-secondary">
           <i class="bi bi-instagram"></i>
         </a>
-        <a href="" class="me-4 link-secondary">
+        <a href="https://www.linkedin.com/company/zomato/?originalSubdomain=in" target="_blank" class="me-4 link-secondary">
           <i class="bi bi-linkedin"></i>
         </a>
-        <a href="" class="me-4 link-secondary">
-          <i class="bi bi-github"></i>
+        <a href="https://www.youtube.com/zomato" target="_blank" class="me-4 link-secondary">
+          <i class="bi bi-youtube"></i>
         </a>
       </div>
     </section>
@@ -223,7 +231,7 @@
         <div class="row mt-3">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3 text-secondary"></i>Zomato
+              <i class="fas fa-gem me-3 text-secondary"></i>Zomacco
             </h6>
             <p>
               Here you can order delicious cuisine from your favourite restaurants.
@@ -232,7 +240,7 @@
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="text-uppercase fw-bold mb-4">
-              ABOUT ZOMATO
+              ABOUT ZOMACCO
             </h6>
             <p>
               <a href="#!" class="text-reset">Who We Are</a>
@@ -293,7 +301,7 @@
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
             <p><i class="bi bi-house-door-fill"></i>Ground Floor 12A 94 Meghdoot Nehru Place New Delhi - India </p>
-            <p><i class="bi bi-envelope-fill"></i>companysecretary@zomato.com</p>
+            <p><i class="bi bi-envelope-fill"></i>companysecretary@zomacco.com</p>
             <p><i class="bi bi-telephone-fill"></i>+91-011-40592373</p>
             <p><i class="bi bi-printer-fill"></i>N.A.</p>
           </div>
@@ -304,7 +312,7 @@
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
       © 2023-24 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Zomato.com</a>
+      <a class="text-reset fw-bold" href="https://mubasshirkhan01234.github.io/Zomato_website/">Zomacco.com</a>
     </div>
   </footer>
 

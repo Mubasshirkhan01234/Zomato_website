@@ -3,35 +3,26 @@
     font-family: 'Itim', cursive;
 }
 
-#delivery img{
-    height: 40px;
-    width: 40px;
-}
-
-#delivery div{
-    float: left;
-    margin-left: 29%;
-}
-
-#delivery span:hover{
-    color: red;
-}
-
-.search_input{
-    
-}
-
 .size{
     width: 150px;
     height: 150px;
-}
+} 
 
 .align div{
     margin-left: 40px;
     text-align: center;
 }
 
-.align {
+.align a{
+    text-decoration: none;
+    color: black;
+}
+
+.align h5,h6{
+    padding-top: 5px;
+}
+
+.align{
     overflow-x: scroll;
     display: flex;
 }
@@ -45,6 +36,10 @@
     height: 290px;
     width: 380px;
     margin: 12px 0 10px 3px;
+}
+
+.textdec{
+    text-decoration: none;
 }
 
 #best_food_images span{
