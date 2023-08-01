@@ -27,6 +27,8 @@
     display: flex;
 }
 
+
+/* Best food section */
 #best_food{
     margin-left: 11%;
     margin-top: 70px;
@@ -55,6 +57,7 @@
     border-radius: 15px;
 }
 
+/* Footer */
 footer{
     background-color: #e3f2fd;
 }
